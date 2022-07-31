@@ -30,5 +30,5 @@ for line in range(queries):
     if values[0] == 1:
         stack.push(values[1])
     elif values[0] == 2:
-    stack.pop()
+        stack.pop()
 stack.status()
